@@ -12,7 +12,7 @@
 - MsSql Server
 - Yarn or Npx installed
 ## To run Web Api:
-1.Download repo
+1. Download repo
 2. Open Ms Sql Management aplication and run Database/init.sql script.
 3. Open WebApi/WebApi.sln
 4. Build and run aplication
