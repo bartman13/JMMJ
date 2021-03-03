@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:WebApi.Controllers.JmmjController.GetTask(WebApi.TransferObjects.FilterTaskParameters)">
+            <summary>
+            Returns All tasks ordered by priority 
+            </summary>
+            <returns> List of elements </returns>
+        </member>
+        <member name="M:WebApi.Controllers.JmmjController.AddTask(WebApi.TransferObjects.Body.MetaTask)">
+            <summary>
+            Create new Task 
+            </summary>
+            <returns> Info about operation </returns>
+        </member>
+        <member name="M:WebApi.Controllers.JmmjController.Delete(System.Int32)">
+            <summary>
+            Delete  Task 
+            </summary>
+            <returns> Info about operation </returns>
+        </member>
+        <member name="M:WebApi.Controllers.JmmjController.Update(System.Int32,WebApi.TransferObjects.Body.MetaTask)">
+            <summary>
+            Update Task whith speciffic id 
+            </summary>
+            <returns> Info about operation </returns>
+        </member>
+        <member name="M:WebApi.Controllers.JmmjController.SetPriority(System.Int32,WebApi.TransferObjects.Query.PriorityPatch)">
+            <summary>
+            Set priority  
+            </summary>
+            <returns> If operation success </returns>
+        </member>
+    </members>
+</doc>
